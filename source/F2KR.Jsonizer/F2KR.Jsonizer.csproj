@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>F2KR.Jsonizer</Title>
+        <Description>this product will make your life easier with you dealing with json files.</Description>
+        <Copyright>F2KR</Copyright>
+        <PackageProjectUrl>https://github.com/f2kr/Jsonizer</PackageProjectUrl>
+        <PackageLicenseUrl>https://raw.githubusercontent.com/f2kr/Jsonizer/main/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/f2kr/Jsonizer</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>MIT</PackageTags>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    </ItemGroup>
+
+</Project>

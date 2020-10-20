@@ -1,0 +1,14 @@
+﻿{
+    "a": 10,
+    "b": 50,
+    
+    "covers": {
+        "tires": 10,
+        "windows": 50,
+        "engine": 20,
+        "contents": 30,
+        "doors": 15
+    },
+    "z": 10
+    
+}
