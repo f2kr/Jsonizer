@@ -19,8 +19,8 @@ jobs:
         dotnet-version: 3.1.301
     - name: Install dependencies
       run: |
-        dotnet restore ./F2KR.Jsonizer/F2KR.Jsonizer/F2KR.Jsonizer.csproj
-        dotnet restore ./F2KR.Jsonizer/F2KR.Jsonizer.Tests/F2KR.Jsonizer.Tests.csproj
+        dotnet restore ./F2KR.Jsonizer/F2KR.Jsonizer.csproj
+        dotnet restore ./F2KR.Jsonizer.Tests/F2KR.Jsonizer.Tests.csproj
       working-directory: ./source
     - name: Build
       run: dotnet build --configuration Release --no-restore
