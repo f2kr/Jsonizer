@@ -20,7 +20,7 @@ jobs:
     - name: Install dependencies
       run: |
         dotnet restore ./F2KR.Jsonizer/F2KR.Jsonizer.csproj
-        dotnet restore ./F2KR.Jsonizer.Tests/F2KR.Jsonizer.Tests.csproj
+        dotnet restore ./F2Kr.Jsonizer.Tests/F2Kr.Jsonizer.Tests.csproj
       working-directory: ./source
     - name: Build
       run: dotnet build --configuration Release --no-restore
