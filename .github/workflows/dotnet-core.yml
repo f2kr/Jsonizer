@@ -23,6 +23,10 @@ jobs:
         dotnet restore ./F2Kr.Jsonizer.Tests/F2Kr.Jsonizer.Tests.csproj
       working-directory: ./source
     - name: Build
-      run: dotnet build --configuration Release --no-restore
+      run: |
+        dotnet build ./source/F2KR.Jsonizer/F2KR.Jsonizer.csproj --configuration Release --no-restore
+        dotnet build ./source/F2Kr.Jsonizer.Tests/F2Kr.Jsonizer.Tests.csproj --configuration Release --no-restore
     - name: Test
-      run: dotnet test --no-restore --verbosity normal
+      run: |
+        dotnet test ./source/F2Kr.Jsonizer.Tests/F2Kr.Jsonizer.Tests.csproj --no-restore --verbosity normal
+        
